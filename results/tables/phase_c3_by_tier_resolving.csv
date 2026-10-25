@@ -1,0 +1,5 @@
+group,domains,domains_validated,zones,domains_validated_pct,zones_validated,zones_validated_pct,zones_signed_no_chain,zones_signed_no_chain_pct,zones_unsigned,zones_unsigned_pct,zones_validated_some
+verified,6620,81,514,1.2,5,1.0,9,1.8,500,97.3,2
+unverified,2405,25,1318,1.0,9,0.7,48,3.6,1261,95.7,0
+rejected,3,0,2,0.0,0,0.0,0,0.0,2,100.0,0
+ALL,9028,106,1834,1.2,14,0.8,57,3.1,1763,96.1,2

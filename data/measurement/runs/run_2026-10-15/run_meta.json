@@ -1,0 +1,23 @@
+{
+  "environment_e2b": {
+    "python": "3.12.3",
+    "dnspython": "2.9.0",
+    "os": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43"
+  },
+  "https_ech": {
+    "config": {
+      "nameservers": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ],
+      "timeout_s": 3.0,
+      "lifetime_s": 8.0,
+      "retries": 2,
+      "workers": 200,
+      "max_qps": 100,
+      "query_dnssec": true
+    },
+    "finished": "2026-10-15T16:57:16+00:00",
+    "scanned_this_session": 1259
+  }
+}

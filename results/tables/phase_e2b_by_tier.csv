@@ -1,0 +1,4 @@
+tier,n,ech_present,https_no_ech,alias_form,no_https_record,ech_parse_error,nxdomain,servfail,timeout,error,not_scanned
+rejected,3,2,0,0,1,0,0,0,0,0,0
+unverified,2405,506,42,0,1799,0,9,6,43,0,0
+verified,6620,505,110,0,5975,0,22,5,3,0,0

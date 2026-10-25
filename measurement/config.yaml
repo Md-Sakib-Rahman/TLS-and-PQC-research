@@ -1,0 +1,27 @@
+# Phase A settings. The full effective config is copied into run_meta.json for every run.
+vantage_point: "Chattogram, Bangladesh; residential broadband (ISP not disclosed)"
+
+dns:
+  nameservers: ["1.1.1.1", "8.8.8.8"]   # explicit, so runs are reproducible (validating resolvers)
+  timeout_s: 3.0         # per attempt
+  lifetime_s: 8.0        # total time per query
+  retries: 2             # extra tries after a timeout / SERVFAIL
+  workers: 200
+  max_qps: 100           # global cap on DNS queries per second
+  query_dnssec: true     # also ask DS + DNSKEY
+
+port443:
+  connect_timeout_s: 5.0
+  workers: 50
+  max_ips_tried: 3       # per domain, IPv4 first
+  try_ipv6: true
+  max_per_ip: 4          # max simultaneous connections to one IP (shared hosting)
+  max_cps: 30            # global cap on connection attempts per second
+
+http:
+  user_agent: "bd-tls-pqc-study/1.0 (Md Sakib Rahman, IIUC; contact: sakibrahman.user@gmail.com)"
+  max_per_ip: 1
+
+smtp:
+  ehlo_name: "md-sakib-rahman.github.io"
+  timeout_s: 30.0

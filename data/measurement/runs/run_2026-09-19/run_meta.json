@@ -1,0 +1,345 @@
+{
+  "input": {
+    "file": "domains_frozen_2026-09-19.csv",
+    "path": "/home/voyager1/Documents/Researches/bd-tls-pqc-study/data/measurement/input/domains_frozen_2026-09-19.csv",
+    "sha256": "203d26072386c38ad54f71d32e2b7155dd7f363377429f3dff37f577f9cbf00e",
+    "rows": 22020
+  },
+  "environment": {
+    "python": "3.12.3",
+    "dnspython": "2.8.0",
+    "os": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+    "vantage_point": "Chattogram, Bangladesh; residential broadband (ISP not disclosed)"
+  },
+  "dns": {
+    "config": {
+      "nameservers": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ],
+      "timeout_s": 3.0,
+      "lifetime_s": 8.0,
+      "retries": 2,
+      "workers": 200,
+      "max_qps": 100,
+      "query_dnssec": true
+    },
+    "finished": "2026-09-19T13:23:24+00:00",
+    "scanned_this_session": 22020
+  },
+  "port443": {
+    "config": {
+      "connect_timeout_s": 5.0,
+      "workers": 50,
+      "max_ips_tried": 3,
+      "try_ipv6": true,
+      "max_per_ip": 4,
+      "max_cps": 30
+    },
+    "started": "2026-09-19T13:32:02+00:00",
+    "control": {
+      "192.0.2.1": "timeout",
+      "203.0.113.5": "timeout"
+    },
+    "method": "one TCP connect per unique IP",
+    "finished": "2026-09-19T13:33:28+00:00",
+    "scanned_this_session": 9028
+  },
+  "tls": {
+    "config": {
+      "timeout_s": 10.0,
+      "workers": 50,
+      "max_cps": 30,
+      "max_per_ip": 3,
+      "control_hosts": [
+        "pq.cloudflareresearch.com",
+        "www.cloudflare.com"
+      ]
+    },
+    "started": "2026-09-23T07:46:19+00:00",
+    "libraries": {
+      "pyopenssl": "26.4.0",
+      "cryptography": "50.0.1",
+      "bundled_openssl": "OpenSSL 4.0.2 25 Aug 2026",
+      "pqc_groups_offered": [
+        "X25519MLKEM768",
+        "SecP256r1MLKEM768",
+        "SecP384r1MLKEM1024",
+        "MLKEM768",
+        "MLKEM1024",
+        "MLKEM512"
+      ]
+    },
+    "groups": {
+      "default": "*X25519MLKEM768:*X25519:secp256r1:secp384r1",
+      "classical": "*X25519:secp256r1:secp384r1",
+      "legacy": "*X25519:secp256r1:secp384r1",
+      "pqc_only": "X25519MLKEM768:SecP256r1MLKEM768:SecP384r1MLKEM1024:MLKEM768:MLKEM1024:MLKEM512",
+      "old_versions": "TLS1.0-1.1 only, ALL:@SECLEVEL=0"
+    },
+    "trust_store": {
+      "path": "/home/voyager1/Documents/Researches/bd-tls-pqc-study/venv/lib/python3.12/site-packages/certifi/cacert.pem",
+      "roots_loaded": 121,
+      "roots_skipped": 0,
+      "roots_with_parse_warnings": 6,
+      "sha256": "9cc2a774b5198dcff14d9be1e66091f538975d867ce029a96bce15a55dfd730f",
+      "certifi": "2026.07.22"
+    },
+    "input": {
+      "file": "/home/voyager1/Documents/Researches/bd-tls-pqc-study/data/measurement/processed/live_domains.csv",
+      "sha256": "fedf5777e607130d11e26ac6934b30796406586fc33289c01e2794462f14650c"
+    },
+    "control": {
+      "pq.cloudflareresearch.com": {
+        "status": "ok",
+        "tls_version": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384",
+        "group": "X25519MLKEM768",
+        "alpn": "h2",
+        "ms": 25,
+        "trusted": true
+      },
+      "www.cloudflare.com": {
+        "status": "ok",
+        "tls_version": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384",
+        "group": "X25519MLKEM768",
+        "alpn": "h2",
+        "ms": 20,
+        "trusted": true
+      }
+    },
+    "finished": "2026-09-23T07:57:19+00:00",
+    "scanned_this_session": 7899
+  },
+  "http": {
+    "config": {
+      "timeout_s": 10.0,
+      "workers": 80,
+      "max_cps": 40,
+      "max_per_ip": 1,
+      "max_header_bytes": 65536,
+      "user_agent": "bd-tls-pqc-study/1.0 (Md Sakib Rahman, IIUC; contact: sakibrahman.user@gmail.com)",
+      "control_hosts": [
+        "www.cloudflare.com"
+      ]
+    },
+    "started": "2026-09-23T10:25:16+00:00",
+    "python_ssl": "OpenSSL 3.0.13 30 Jan 2024",
+    "control": {
+      "www.cloudflare.com": {
+        "domain": "www.cloudflare.com",
+        "ip": "104.16.124.96",
+        "status": "ok",
+        "http_version": "1.1",
+        "status_code": 200,
+        "reason": "OK",
+        "headers": {
+          "date": "Wed, 23 Sep 2026 10:25:16 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "close",
+          "link": "<https://www.cloudflare.com/.well-known/agents.json>; rel=\"api-catalog\", <https://www.cloudflare.com/.well-known/webmcp.json>; rel=\"service-desc\", <https://www.cloudflare.com/openapi.json>; rel=\"service-desc\", <https://www.cloudflare.com/llms.txt>; rel=\"service-doc\", <https://www.cloudflare.com/sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin, </static/hero-poster.avif>; rel=preload; as=image; type=\"image/avif\"; fetchpriority=high",
+          "cf-ray": "a3f8d82f89051ed4-CGP",
+          "cf-cache-status": "HIT",
+          "accept-ranges": "bytes",
+          "age": "0",
+          "cache-control": "max-age=10",
+          "last-modified": "Wed, 23 Sep 2026 10:25:16 GMT",
+          "server": "cloudflare",
+          "vary": "accept-encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://adservice.google.com https://cdn.bizible.com https://js.adsrvr.org https://*.marketo.net https://platform.twitter.com https://static.ads-twitter.com https://scripts.demandbase.com https://tag.demandbase.com https://*.6sc.co https://*.qualified.com https://snap.licdn.com https://bat.bing.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.googletagmanager.com https://*.google-analytics.com https://*.google.com https://*.doubleclick.net https://www.googleadservices.com https://translate.googleapis.com https://cdn.bizible.com https://js.adsrvr.org https://*.marketo.net https://ads-twitter.com https://analytics.twitter.com https://*.twimg.com https://api.demandbase.com https://scripts.demandbase.com https://tag.demandbase.com https://tag-logger.demandbase.com https://api.company-target.com https://*.6sc.co https://epsilon.6sense.com https://*.qualified.com https://*.ads.linkedin.com https://www.linkedin.com https://bat.bing.com https: wss://*.qualified.com wss://*.registrar.cloudflare.com; frame-src https://*.adsrvr.org https://*.cloudflare.com https://*.videodelivery.net https://*.cloudflarestream.com https://www.googletagmanager.com https://*.qualified.com https://td.doubleclick.net https://bid.g.doubleclick.net https://9309168.fls.doubleclick.net https://9973066.fls.doubleclick.net https://s.company-target.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; worker-src 'self' blob:; child-src 'self' blob:; upgrade-insecure-requests",
+          "cross-origin-opener-policy": "unsafe-none",
+          "cross-origin-resource-policy": "cross-origin",
+          "permissions-policy": "geolocation=(), camera=(), microphone=()",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-served-by": "marketing-site",
+          "x-xss-protection": "1; mode=block",
+          "x-rm": "GW",
+          "set-cookie": "_ga=GA1.1.ea658c77-fb14-4142-a495-d436f4358f36; Expires=Sat, 23 Oct 2027 10:25:16 GMT; Path=/; cfz_google-analytics_v4={\"nzcr_ga4\":{\"v\":\"ea658c77-fb14-4142-a495-d436f4358f36\",\"e\":1824287116732}}; Expires=Sat Oct 23 2027 10:25:16 GMT+0000 (Coordinated Universal Time); HttpOnly; SameSite=Lax; Path=/; Secure; cfz_adobe={\"MsVJ_ecid\":{\"v\":\"CiY0NDU0OTY0MzMyODg4NjUzNDIwMTMxNTg0NDg0NDcwOTQ3MzQ0MFIOCLm0se6MNCoDVkE2MALwAbm0se6MNA==\",\"e\":1824287116993}}; Expires=Sat Oct 23 2027 10:25:16 GMT+0000 (Coordinated Universal Time); HttpOnly; SameSite=Lax; Path=/; Secure; kndctr_8AD56F28618A50850A495FB6_AdobeOrg_identity=CiY0NDU0OTY0MzMyODg4NjUzNDIwMTMxNTg0NDg0NDcwOTQ3MzQ0MFIOCLm0se6MNCoDVkE2MALwAbm0se6MNA==; Expires=Sat, 23 Oct 2027 10:25:16 GMT; Path=/; Secure; SameSite=Lax; __cf_bm=uXPjZ97Nhj2uxYSsS3jBnNTlMHcXcdDnvlbRgMYSzNs-1790159116.7255502-1.0.1.1-h9DLjLxLRQDW4.enhT0fLv3Wacrjxx5gS8BQFdMZMVwMWIeBNJELQhotNBtYaHBBpepe0V_zc7Bqdw87zdatWGRpmBgAAmMdLNu1mi3UlzYqOfK_Rny8DiG936CTXE_8JoC4AoQtUf2sniNBYV1R4Q; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.cloudflare.com; Expires=Wed, 23 Sep 2026 10:55:16 GMT",
+          "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Oy0yGyoltoF%2FHiCNP83KCk0pBVHNkWUHyijt1hxLPHRTBbwAzKNDvmIEjVESGbOl0ktkkJYGsVlddS%2FWMf%2FMjMhCiXYXrxWWQI34HaGcM3qyNHsU3ISNULrCB3HxBQNH4%2F1ZJQ%3D%3D\"}]}",
+          "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "raw_header_lines": [
+          "date: Wed, 23 Sep 2026 10:25:16 GMT",
+          "content-type: text/html; charset=utf-8",
+          "transfer-encoding: chunked",
+          "connection: close",
+          "link: <https://www.cloudflare.com/.well-known/agents.json>; rel=\"api-catalog\", <https://www.cloudflare.com/.well-known/webmcp.json>; rel=\"service-desc\", <https://www.cloudflare.com/openapi.json>; rel=\"service-desc\", <https://www.cloudflare.com/llms.txt>; rel=\"service-doc\", <https://www.cloudflare.com/sitemap.xml>; rel=\"sitemap\", </fonts/Kunst%20Grotesk%20Regular.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, </fonts/Kunst%20Grotesk%20Medium.woff2>; rel=preload; as=font; type=\"font/woff2\"; crossorigin, <https://ot.www.cloudflare.com>; rel=preconnect; crossorigin, <https://imagedelivery.net>; rel=preconnect; crossorigin, </static/hero-poster.avif>; rel=preload; as=image; type=\"image/avif\"; fetchpriority=high",
+          "cf-ray: a3f8d82f89051ed4-CGP",
+          "cf-cache-status: HIT",
+          "accept-ranges: bytes",
+          "age: 0",
+          "cache-control: max-age=10",
+          "last-modified: Wed, 23 Sep 2026 10:25:16 GMT",
+          "server: cloudflare",
+          "vary: accept-encoding",
+          "strict-transport-security: max-age=31536000; includeSubDomains",
+          "content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://static-staging.cloudflareinsights.com https://challenges.cloudflare.com https://*.onetrust.com https://cdn.cookielaw.org https://ot.www.cloudflare.com https://www.googletagmanager.com https://tagmanager.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://adservice.google.com https://cdn.bizible.com https://js.adsrvr.org https://*.marketo.net https://platform.twitter.com https://static.ads-twitter.com https://scripts.demandbase.com https://tag.demandbase.com https://*.6sc.co https://*.qualified.com https://snap.licdn.com https://bat.bing.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://*.googletagmanager.com https://*.google-analytics.com https://*.google.com https://*.doubleclick.net https://www.googleadservices.com https://translate.googleapis.com https://cdn.bizible.com https://js.adsrvr.org https://*.marketo.net https://ads-twitter.com https://analytics.twitter.com https://*.twimg.com https://api.demandbase.com https://scripts.demandbase.com https://tag.demandbase.com https://tag-logger.demandbase.com https://api.company-target.com https://*.6sc.co https://epsilon.6sense.com https://*.qualified.com https://*.ads.linkedin.com https://www.linkedin.com https://bat.bing.com https: wss://*.qualified.com wss://*.registrar.cloudflare.com; frame-src https://*.adsrvr.org https://*.cloudflare.com https://*.videodelivery.net https://*.cloudflarestream.com https://www.googletagmanager.com https://*.qualified.com https://td.doubleclick.net https://bid.g.doubleclick.net https://9309168.fls.doubleclick.net https://9973066.fls.doubleclick.net https://s.company-target.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; worker-src 'self' blob:; child-src 'self' blob:; upgrade-insecure-requests",
+          "cross-origin-opener-policy: unsafe-none",
+          "cross-origin-resource-policy: cross-origin",
+          "permissions-policy: geolocation=(), camera=(), microphone=()",
+          "referrer-policy: strict-origin-when-cross-origin",
+          "x-content-type-options: nosniff",
+          "x-frame-options: SAMEORIGIN",
+          "x-served-by: marketing-site",
+          "x-xss-protection: 1; mode=block",
+          "x-rm: GW",
+          "set-cookie: _ga=GA1.1.ea658c77-fb14-4142-a495-d436f4358f36; Expires=Sat, 23 Oct 2027 10:25:16 GMT; Path=/",
+          "set-cookie: cfz_google-analytics_v4={\"nzcr_ga4\":{\"v\":\"ea658c77-fb14-4142-a495-d436f4358f36\",\"e\":1824287116732}}; Expires=Sat Oct 23 2027 10:25:16 GMT+0000 (Coordinated Universal Time); HttpOnly; SameSite=Lax; Path=/; Secure",
+          "set-cookie: cfz_adobe={\"MsVJ_ecid\":{\"v\":\"CiY0NDU0OTY0MzMyODg4NjUzNDIwMTMxNTg0NDg0NDcwOTQ3MzQ0MFIOCLm0se6MNCoDVkE2MALwAbm0se6MNA==\",\"e\":1824287116993}}; Expires=Sat Oct 23 2027 10:25:16 GMT+0000 (Coordinated Universal Time); HttpOnly; SameSite=Lax; Path=/; Secure",
+          "set-cookie: kndctr_8AD56F28618A50850A495FB6_AdobeOrg_identity=CiY0NDU0OTY0MzMyODg4NjUzNDIwMTMxNTg0NDg0NDcwOTQ3MzQ0MFIOCLm0se6MNCoDVkE2MALwAbm0se6MNA==; Expires=Sat, 23 Oct 2027 10:25:16 GMT; Path=/; Secure; SameSite=Lax",
+          "set-cookie: __cf_bm=uXPjZ97Nhj2uxYSsS3jBnNTlMHcXcdDnvlbRgMYSzNs-1790159116.7255502-1.0.1.1-h9DLjLxLRQDW4.enhT0fLv3Wacrjxx5gS8BQFdMZMVwMWIeBNJELQhotNBtYaHBBpepe0V_zc7Bqdw87zdatWGRpmBgAAmMdLNu1mi3UlzYqOfK_Rny8DiG936CTXE_8JoC4AoQtUf2sniNBYV1R4Q; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.cloudflare.com; Expires=Wed, 23 Sep 2026 10:55:16 GMT",
+          "report-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Oy0yGyoltoF%2FHiCNP83KCk0pBVHNkWUHyijt1hxLPHRTBbwAzKNDvmIEjVESGbOl0ktkkJYGsVlddS%2FWMf%2FMjMhCiXYXrxWWQI34HaGcM3qyNHsU3ISNULrCB3HxBQNH4%2F1ZJQ%3D%3D\"}]}",
+          "nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+          "alt-svc: h3=\":443\"; ma=86400"
+        ],
+        "hsts": {
+          "present": true,
+          "raw": "max-age=31536000; includeSubDomains",
+          "max_age": 31536000,
+          "include_subdomains": true,
+          "preload": false
+        },
+        "waf": {
+          "detected": true,
+          "vendors": [
+            "Cloudflare"
+          ],
+          "evidence": [
+            {
+              "vendor": "Cloudflare",
+              "header": "server",
+              "value": "cloudflare"
+            },
+            {
+              "vendor": "Cloudflare",
+              "header": "cf-ray",
+              "value": "a3f8d82f89051ed4-CGP"
+            },
+            {
+              "vendor": "Cloudflare",
+              "header": "cf-cache-status",
+              "value": "HIT"
+            }
+          ]
+        }
+      }
+    },
+    "input": {
+      "file": "/home/voyager1/Documents/Researches/bd-tls-pqc-study/data/measurement/processed/live_domains.csv",
+      "sha256": "fedf5777e607130d11e26ac6934b30796406586fc33289c01e2794462f14650c"
+    }
+  },
+  "legacy": {
+    "config": {
+      "openssl_path": "tools/legacy_openssl/bin/openssl",
+      "timeout_s": 10.0,
+      "workers": 30,
+      "max_cps": 10,
+      "per_ip_interval_s": 1.5,
+      "breaker_after": 5
+    },
+    "started": "2026-09-28T08:31:09+00:00",
+    "openssl": "OpenSSL 1.1.1w  11 Sep 2023",
+    "openssl_path": "/home/voyager1/Documents/Researches/bd-tls-pqc-study/tools/legacy_openssl/bin/openssl",
+    "openssl_sha256": "01f944b73e8aa9fd69ffcb91905ed572875e42d4a137e77b83980f32e973972d",
+    "control": {
+      "sslv3_on_legacy": {
+        "accepts": true,
+        "status": "accepted"
+      },
+      "sslv3_on_modern": {
+        "accepts": false,
+        "status": "refused"
+      },
+      "3des_on_3des": {
+        "accepts": true,
+        "status": "accepted"
+      },
+      "3des_on_modern": {
+        "accepts": false,
+        "status": "refused"
+      }
+    },
+    "cipher_strings": {
+      "sslv3_all": "ALL:@SECLEVEL=0",
+      "sslv3_cbc_only": "ALL:!RC4:!NULL:!eNULL:@SECLEVEL=0",
+      "3des": "3DES:@SECLEVEL=0"
+    },
+    "input": {
+      "file": "/home/voyager1/Documents/Researches/bd-tls-pqc-study/data/measurement/processed/live_domains.csv",
+      "sha256": "fedf5777e607130d11e26ac6934b30796406586fc33289c01e2794462f14650c"
+    },
+    "finished": "2026-09-28T09:14:05+00:00",
+    "tripped_ips": [
+      "107.181.234.74",
+      "15.252.164.60",
+      "64.190.63.222",
+      "103.28.121.89",
+      "103.221.252.44",
+      "103.43.55.98",
+      "103.155.178.26",
+      "15.252.85.56",
+      "114.130.53.252",
+      "192.95.8.47",
+      "180.94.20.125",
+      "100.61.196.63",
+      "15.197.148.33",
+      "3.66.59.68",
+      "13.35.20.95",
+      "103.190.68.68",
+      "103.221.252.37",
+      "182.48.80.121"
+    ],
+    "deferred_domains": 35,
+    "interrupted": false
+  },
+  "smtp": {
+    "config": {
+      "port": 25,
+      "timeout_s": 30.0,
+      "workers": 20,
+      "max_cps": 8,
+      "max_per_ip": 1,
+      "ehlo_name": "md-sakib-rahman.github.io",
+      "control_host": "smtp.gmail.com"
+    },
+    "started": "2026-10-15T09:30:12+00:00",
+    "control": {
+      "mx_host": "smtp.gmail.com",
+      "ip": "192.178.211.108",
+      "ehlo_name": "md-sakib-rahman.github.io",
+      "banner": "smtp.gmail.com ESMTP 5a478bee46e88-35b19c6c7b4sm35178367eec.24 - gsmtp",
+      "capabilities": [
+        "smtp.gmail.com at your service, [103.132.178.134]",
+        "SIZE 35882577",
+        "8BITMIME",
+        "STARTTLS",
+        "ENHANCEDSTATUSCODES",
+        "PIPELINING",
+        "CHUNKING",
+        "SMTPUTF8"
+      ],
+      "starttls_offered": true,
+      "tls_version": "TLSv1.3",
+      "cipher": "TLS_AES_256_GCM_SHA384",
+      "group": "X25519MLKEM768",
+      "status": "ok",
+      "ms": 1788
+    },
+    "input": {
+      "file": "/home/voyager1/Documents/Researches/bd-tls-pqc-study/data/measurement/runs/run_2026-09-19/raw/dns.jsonl"
+    },
+    "resolvers": [
+      "1.1.1.1",
+      "8.8.8.8"
+    ],
+    "finished": "2026-10-15T09:51:56+00:00",
+    "aborted": false
+  }
+}

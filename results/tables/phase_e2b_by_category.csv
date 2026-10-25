@@ -1,0 +1,8 @@
+category,n,ech_present,https_no_ech,alias_form,no_https_record,ech_parse_error,nxdomain,servfail,timeout,error,not_scanned
+banking,53,5,1,0,42,0,0,5,0,0,0
+commercial,869,214,28,0,616,0,1,1,9,0,0
+defence,13,0,0,0,13,0,0,0,0,0,0
+government,2052,154,6,0,1870,0,4,1,17,0,0
+telecom,16,0,0,0,16,0,0,0,0,0,0
+unclassified,157,24,1,0,129,0,0,0,3,0,0
+university,5868,616,116,0,5089,0,26,4,17,0,0

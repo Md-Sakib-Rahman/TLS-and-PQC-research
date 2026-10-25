@@ -1,0 +1,6 @@
+provider,domains,servers,pq_default_n,pq_default_den,pq_default_dom_pct,pq_default_srv_pct
+Google,1060,510,1050,1060,99.1,98.2
+cPanel-style shared hosting,423,92,251,423,59.3,38.0
+Cloudflare,107,60,106,107,99.1,98.3
+Amazon/AWS,21,17,12,21,57.1,64.7
+Microsoft/Outlook,7,4,0,7,0.0,0.0

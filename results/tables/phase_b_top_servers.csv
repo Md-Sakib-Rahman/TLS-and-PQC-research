@@ -1,0 +1,16 @@
+ip,domains,categories,pq_classes,accepts_tls_1_0_or_1_1,http_ok,http_pending,hsts_present
+103.157.135.180,1219,university=1217; unclassified=2,pq_default=1219,0,1216,0,2
+159.13.21.17,481,government=481,not_capable=481,0,481,0,480
+159.13.21.95,245,government=245,not_capable=245,0,245,0,245
+131.186.50.33,162,government=155; unclassified=7,not_capable=162,0,162,0,96
+159.13.21.220,161,government=154; unclassified=5; banking=2,not_capable=161,0,161,0,95
+103.108.140.126,140,university=140,pq_default=140,0,138,0,0
+103.159.2.215,120,university=120,pq_default=120,0,120,0,3
+131.186.51.242,101,government=96; unclassified=5,not_capable=101,0,101,0,67
+103.134.89.234,98,university=98,not_capable=98,0,98,0,0
+159.13.20.243,94,government=94,not_capable=94,0,94,0,55
+203.96.189.167,87,university=87,pq_default=87,0,87,0,0
+203.190.10.99,78,university=76; commercial=2,not_capable=78,0,78,0,0
+103.159.2.19,76,university=76,not_capable=76,0,76,0,2
+206.72.198.91,73,university=73,pq_default=73,0,73,0,0
+103.28.121.122,68,university=68,no_tls13=68,0,68,0,0

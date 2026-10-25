@@ -1,0 +1,22 @@
+domain,old_sector,new_sector,match_reason,verdict
+www.robi.com.bd,commercial (heuristic -- review manually),telecom (keyword match -- verify manually),matched keyword: robi,Y
+www.business.hsbc.com.bd,commercial (heuristic -- review manually),banking (keyword match -- verify manually),matched keyword: hsbc,Y
+www.ificbank.com.bd,commercial (heuristic -- review manually),banking (keyword match -- verify manually),matched keyword: ificbank,Y
+www.sonalibank.com.bd,commercial (heuristic -- review manually),banking (keyword match -- verify manually),matched keyword: sonali,Y
+ucbstock.com.bd,commercial (heuristic -- review manually),banking (keyword match -- verify manually),matched keyword: ucb,Y
+www.meghnabank.com.bd,commercial (heuristic -- review manually),banking (keyword match -- verify manually),matched keyword: meghnabank,Y
+www.ucbstock.com.bd,commercial (heuristic -- review manually),banking (keyword match -- verify manually),matched keyword: ucb,Y
+scs.robi.com.bd,commercial (heuristic -- review manually),telecom (keyword match -- verify manually),matched keyword: robi,Y
+ijiks.biilsd.org.bd,unclassified,banking (keyword match -- verify manually),matched keyword: sbi,N
+www.worldbank.org.bd,unclassified,banking (LOW CONFIDENCE -- generic 'bank' substring only),"generic 'bank' substring, not a named match",N
+www.grameenbank.org.bd,unclassified,banking (LOW CONFIDENCE -- generic 'bank' substring only),"generic 'bank' substring, not a named match",Y
+www.ucb.com.bd,commercial (heuristic -- review manually),banking (keyword match -- verify manually),matched keyword: ucb,Y
+www.combank.net.bd,unclassified,banking (keyword match -- verify manually),matched keyword: combank,Y
+www.onebank.com.bd,commercial (heuristic -- review manually),banking (keyword match -- verify manually),matched keyword: onebank,Y
+www.bdbl.com.bd,commercial (heuristic -- review manually),banking (keyword match -- verify manually),matched keyword: bdbl,Y
+www.bangladeshbank.org.bd,unclassified,banking (LOW CONFIDENCE -- generic 'bank' substring only),"generic 'bank' substring, not a named match",N
+www.krishibank.org.bd,unclassified,banking (keyword match -- verify manually),matched keyword: krishi,Y
+ngi.teletalk.com.bd,commercial (heuristic -- review manually),telecom (keyword match -- verify manually),matched keyword: teletalk,Y
+sim.teletalk.com.bd,commercial (heuristic -- review manually),telecom (keyword match -- verify manually),matched keyword: teletalk,Y
+bpsc.teletalk.com.bd,commercial (heuristic -- review manually),telecom (keyword match -- verify manually),matched keyword: teletalk,Y
+jobs.teletalk.com.bd,commercial (heuristic -- review manually),telecom (keyword match -- verify manually),matched keyword: teletalk,Y

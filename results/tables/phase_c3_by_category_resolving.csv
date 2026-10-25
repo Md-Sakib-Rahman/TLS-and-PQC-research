@@ -1,0 +1,9 @@
+group,domains,domains_validated,zones,domains_validated_pct,zones_validated,zones_validated_pct,zones_signed_no_chain,zones_signed_no_chain_pct,zones_unsigned,zones_unsigned_pct,zones_validated_some
+university,5868,80,452,1.4,3,0.7,5,1.1,444,98.2,2
+government,2052,15,611,0.7,5,0.8,17,2.8,589,96.4,0
+commercial,869,7,625,0.8,5,0.8,30,4.8,590,94.4,0
+unclassified,157,0,121,0.0,0,0.0,4,3.3,117,96.7,0
+banking,53,4,19,7.5,1,5.3,1,5.3,17,89.5,0
+telecom,16,0,3,0.0,0,0.0,0,0.0,3,100.0,0
+defence,13,0,3,0.0,0,0.0,0,0.0,3,100.0,0
+ALL,9028,106,1834,1.2,14,0.8,57,3.1,1763,96.1,2

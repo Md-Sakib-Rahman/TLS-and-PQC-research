@@ -1,0 +1,12 @@
+category,tier,domains,pq_default_n,pq_default_den,pq_default_pct,cert_trusted_n,cert_trusted_den,cert_trusted_pct,hsts_n,hsts_den,hsts_pct,sslv3_n,sslv3_den,sslv3_pct,dnssec_validated_n,dnssec_validated_den,dnssec_validated_pct,starttls_among_live_n,starttls_among_live_den,starttls_among_live_pct
+university,verified,4372,2620,4372,59.9,3599,4236,85.0,476,4208,11.3,11,4352,0.3,54,4372,1.2,740,740,100.0
+government,verified,1314,36,1314,2.7,356,1311,27.2,1053,1311,80.3,1,1313,0.1,6,1314,0.5,44,44,100.0
+commercial,unverified,814,506,814,62.2,748,805,92.9,163,792,20.6,0,807,0.0,7,814,0.9,465,467,99.6
+government,unverified,646,289,646,44.7,488,637,76.6,172,624,27.6,4,645,0.6,8,646,1.2,178,178,100.0
+university,unverified,636,359,636,56.4,544,622,87.5,96,607,15.8,4,632,0.6,8,636,1.3,338,338,100.0
+unclassified,unverified,147,62,147,42.2,120,146,82.2,31,145,21.4,1,144,0.7,0,147,0.0,68,69,98.6
+banking,verified,43,8,43,18.6,34,43,79.1,17,42,40.5,0,42,0.0,3,43,7.0,17,17,100.0
+defence,unverified,13,0,13,0.0,12,13,92.3,6,13,46.2,1,13,7.7,0,13,0.0,2,3,66.7
+telecom,verified,10,0,10,0.0,5,10,50.0,4,10,40.0,4,10,40.0,0,10,0.0,2,2,100.0
+banking,rejected,3,3,3,100.0,3,3,100.0,2,3,66.7,0,3,0.0,0,3,0.0,2,2,100.0
+banking,unverified,1,1,1,100.0,1,1,100.0,1,1,100.0,0,1,0.0,0,1,0.0,1,1,100.0

@@ -1,0 +1,69 @@
+domain,category,reason,source,sector
+apostille.mygov.bd,non-standard .bd suffix,"unrecognized second-level label: .mygov.bd -- structurally valid .bd domain, verify manually whether it's a real registration",tranco_bd_2026-09-13.txt,unclassified
+autodiscover.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+autodiscover.bd.local,NOT .bd ccTLD,"last label is '.local', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+autodiscover.failover.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+bd-ex.bd.local,NOT .bd ccTLD,"last label is '.local', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+bdfs.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+bdpayroll.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+bdpayrolltest.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+clindex-sftp.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+dialin.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+dialin.europe.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+education.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+elearncampus.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+ext1.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+ext2.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+legacy.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lync.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncconf01.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncconf02.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncconf03.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncconf04.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncdiscover.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncdiscover.europe.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncsip01.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncsip01.europe.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncsip02.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncsip03.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncweb-ext.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncweb-ext01.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncweb-ext02.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncweb-ext03.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncweb-ext04.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncweb-ext05.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncweb-ext06.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncweb-ext07.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+lyncweb-ext08.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+meet.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+meet.europe.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+o365mail01.office.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+office.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+office.failover.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+paslearningcenter.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+paswhitepapers.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+primaryscholarshipresult.webapp.bd,non-standard .bd suffix,"unrecognized second-level label: .webapp.bd -- structurally valid .bd domain, verify manually whether it's a real registration",tranco_bd_2026-09-13.txt,unclassified
+rtp.secure.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+scholarships.links.bd,non-standard .bd suffix,"unrecognized second-level label: .links.bd -- structurally valid .bd domain, verify manually whether it's a real registration",tranco_bd_2026-09-13.txt,unclassified
+sftp-accuri.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+sftp-bd.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+sftp-bdaustin.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+sip.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+sip.europe.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+ssc.boardresults.bd,non-standard .bd suffix,"unrecognized second-level label: .boardresults.bd -- structurally valid .bd domain, verify manually whether it's a real registration",tranco_bd_2026-09-13.txt,unclassified
+stream.codecloud.bd,non-standard .bd suffix,"unrecognized second-level label: .codecloud.bd -- structurally valid .bd domain, verify manually whether it's a real registration",tranco_bd_2026-09-13.txt,unclassified
+tokenactivation.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+wac-ext.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+wac-ext01.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+wac-ext02.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+wac-ext03.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+wac-ext04.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+www.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+www.education.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+www.mygov.bd,non-standard .bd suffix,"unrecognized second-level label: .mygov.bd -- structurally valid .bd domain, verify manually whether it's a real registration",tranco_bd_2026-09-13.txt,unclassified
+www.paswhitepapers.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+www.www1.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+www1.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+xmpp.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified
+xmpp.europe.bd.com,NOT .bd ccTLD,"last label is '.com', not '.bd' -- likely contamination",all_bd_2026-09-13.json,unclassified

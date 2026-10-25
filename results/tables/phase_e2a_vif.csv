@@ -1,0 +1,12 @@
+term,vif
+const,1.0
+accepts_legacy_tls,3.484
+accepts_sslv3,1.231
+accepts_3des,1.433
+cert_tier_128_plus,1.848
+cert_tier_below_112,1.049
+provider_Google,3.765
+provider_cPanel-style shared hosting,1.021
+provider_Cloudflare,1.246
+provider_Amazon/AWS,1.001
+provider_Microsoft/Outlook,1.005

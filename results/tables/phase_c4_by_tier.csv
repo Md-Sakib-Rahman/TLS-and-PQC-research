@@ -1,0 +1,5 @@
+group,domains,mx_hosts,starttls_offered_n,starttls_offered_den,starttls_offered_dom_pct,starttls_offered_srv_pct,starttls_offered_srv_den,tls_handshake_ok_n,tls_handshake_ok_den,tls_handshake_ok_dom_pct,tls_handshake_ok_srv_pct,tls_handshake_ok_srv_den
+unverified,1317,644,1195,1200,99.6,99.1,552,1149,1195,96.2,99.6,547
+verified,1314,244,1210,1210,100.0,100.0,207,1205,1210,99.6,99.5,207
+rejected,2,2,1,1,100.0,100.0,1,0,1,0.0,0.0,1
+ALL,2633,874,2406,2411,99.8,99.3,744,2354,2406,97.8,99.7,739

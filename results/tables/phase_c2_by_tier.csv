@@ -1,0 +1,5 @@
+group,domains,servers,with_old_version_cipher,lucky13_beast_exposed_n,lucky13_beast_exposed_den,lucky13_beast_exposed_dom_pct,lucky13_beast_exposed_srv_pct,lucky13_beast_exposed_srv_den,idea_negotiated_n,idea_negotiated_den,idea_negotiated_dom_pct,idea_negotiated_srv_pct,idea_negotiated_srv_den,accepts_sslv3_n,accepts_sslv3_den,accepts_sslv3_dom_pct,accepts_sslv3_srv_pct,accepts_sslv3_srv_den,poodle_exposed_n,poodle_exposed_den,poodle_exposed_dom_pct,poodle_exposed_srv_pct,poodle_exposed_srv_den,accepts_3des_n,accepts_3des_den,accepts_3des_dom_pct,accepts_3des_srv_pct,accepts_3des_srv_den
+verified,5739,642,690,690,690,100.0,100.0,152,0,5600,0.0,0.0,620,16,5717,0.3,1.9,633,16,5717,0.3,1.9,633,108,5715,1.9,7.1,632
+unverified,2257,1280,681,681,681,100.0,100.0,509,0,2224,0.0,0.0,1270,10,2242,0.4,0.3,1268,10,2242,0.4,0.3,1268,75,2241,3.3,4.4,1267
+rejected,3,2,0,0,0,,,0,0,3,0.0,0.0,2,0,3,0.0,0.0,2,0,3,0.0,0.0,2,0,3,0.0,0.0,2
+ALL,7999,1861,1371,1371,1371,100.0,100.0,654,0,7827,0.0,0.0,1834,26,7962,0.3,0.9,1840,26,7962,0.3,0.9,1840,183,7959,2.3,5.4,1838

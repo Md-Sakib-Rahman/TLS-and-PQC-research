@@ -1,0 +1,33 @@
+# Virtual environments (never upload)
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Secrets / local config
+.env
+*.key
+*.pem
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Compiled legacy OpenSSL (rebuild with tools/build_legacy_openssl.sh)
+tools/legacy_openssl/
+
+# Scratch / duplicates
+measurement/phase_c_derived/copy c2_legacy_cipher_inference.py
+# DomCop: only the .xz (82 MB) is tracked; the plain .csv (373 MB) and .gz (114 MB) exceed GitHub's limit
+data/raw/domcop/top10milliondomains.csv
+data/raw/domcop/top10milliondomains.csv.gz

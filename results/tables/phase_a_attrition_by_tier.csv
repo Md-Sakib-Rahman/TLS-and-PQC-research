@@ -1,0 +1,5 @@
+group,corpus_total,scanned,resolves,resolves_pct,nxdomain,no_address,inconclusive,open_443,open_443_pct,open_pct_of_resolving,closed,no_response
+verified,14706,14706,6620,45.0,6800,759,527,5739,39.0,86.7,255,626
+unverified,7305,7305,2405,32.9,3955,57,888,2257,30.9,93.8,37,111
+rejected,9,9,3,33.3,4,0,2,3,33.3,100.0,0,0
+ALL,22020,22020,9028,41.0,10759,816,1417,7999,36.3,88.6,292,737
